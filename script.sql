@@ -57,3 +57,6 @@ ADD versions VARCHAR  (15);
 USE webdevelopment;
 ALTER TABLE framework
 ADD version INT;
+--Exercice 3
+USE webdevelopment;
+ALTER TABLE languages CHANGE languages version VARCHAR (50)
