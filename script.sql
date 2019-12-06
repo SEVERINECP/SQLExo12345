@@ -60,3 +60,11 @@ ADD version INT;
 --Exercice 3
 USE webdevelopment;
 ALTER TABLE languages CHANGE languages version VARCHAR (50)
+--Exercice 4
+USE webdevelopment;
+ALTER TABLE languages
+MODIFY version INT;
+--Exercice 5
+USE webdevelopment;
+ALTER TABLE `languages` phon phoneNumber version VARCHAR (50),
+MODIFY version INT;
